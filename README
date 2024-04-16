@@ -1,0 +1,10 @@
+jenkins >> manage jenkins >> Global Pipeline Libraries
+
+jenkins project >> pipeline >> config >>> script >> 
+
+##
+@Library('jenkins-share-lib') _
+
+// Now you can call functions from your shared library
+myFunction()
+##
