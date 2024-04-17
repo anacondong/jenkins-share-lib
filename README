@@ -1,10 +1,17 @@
 jenkins >> manage jenkins >> Global Pipeline Libraries
 
-jenkins project >> pipeline >> config >>> script >> 
+jenkins project >> pipeline >> config >>> script >>
 
 ##
-@Library('jenkins-share-lib') _
+
+@Library('jenkins-share-lib') \_
 
 // Now you can call functions from your shared library
 myFunction()
+
 ##
+
+```groovy
+@Library('jenkins-share-lib@1.0.0') _
+buildJavaApp(repo: "name of repo")
+```
