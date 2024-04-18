@@ -1,0 +1,20 @@
+property1: value1
+property2: value2
+property3:
+  subproperty1: subvalue1
+  subproperty2: subvalue2
+property4: true
+property5: 42
+property6: [item1, item2, item3]
+property7:
+  - name: John
+    age: 30
+  - name: Alice
+    age: 25
+property8: |
+  This is a multiline
+  property.
+property9: null
+property10:
+  nestedProperty:
+    nestedValue: "Nested value"
